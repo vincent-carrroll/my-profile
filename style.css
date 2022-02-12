@@ -1,0 +1,114 @@
+/*Colors and fonts*/
+
+body {
+	background-color: #F7F9FC;
+	color:#42547E;
+	font-family: 'Lora', serif;
+	font-size : 17px;
+	font-weight: lighter;
+}
+
+h1, h2 , h3 {
+
+	font-family : 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #1572A1;
+	font-size:32px;
+	font-weight:900;
+	}
+
+h2{
+	color: #219F94;
+	font-size : 24px;
+	font-weight : lighter;
+	font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	color: #7B74FF;
+	font-weight: bold;
+	transition: color 0.3 ease;
+}
+	
+a:hover{
+	color:#0A2540;
+	font-weight: bold;
+}
+
+
+#logo{
+	width: 100px
+}
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: : 600px;
+
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: : 400px;
+
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #7B74FF;
+	color: white;
+	padding: 15px 20px; 
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;	
+}
+
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-horizontal i:hover{
+	color:black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
